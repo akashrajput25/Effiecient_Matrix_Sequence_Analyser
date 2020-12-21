@@ -1,4 +1,4 @@
-#Project Using Matrix Chain Multiplication
+#Project Using Matrix Chain Multiplication DP in python
 
 
 #Function that returns the Cost/salar multiplications for the matrix multiplication using Dynamic Programming
@@ -78,40 +78,3 @@ if __name__ == '__main__':
     arrcost.sort()
     
     print("Best sequence for the ML model that runs in least time will be the sequence no : {} and the no of operations will be {}".format(indexmin+1,arrcost[0]))
-
-
-#Sample input and Output:
-'''
-How many numbers you want to store for the matrix chain multiplication?
-5
-How many sequences you want to check to find the optimised one?
-3
-For Sequence No. 1
----------------------------------------------------
-Enter the elements 10
-Enter the elements 12
-Enter the elements 24
-Enter the elements 36
-Enter the elements 5
----------------------------------------------------
-
-For Sequence No. 2
----------------------------------------------------
-Enter the elements 5
-Enter the elements 24
-Enter the elements 12
-Enter the elements 36
-Enter the elements 10
----------------------------------------------------
-
-For Sequence No. 3
----------------------------------------------------
-Enter the elements 10
-Enter the elements 36
-Enter the elements 24
-Enter the elements 5
-Enter the elements 12
----------------------------------------------------
-
-Best sequence for your ML model that runs in least time will be the sequence no : 2 and the no of operations will be 5400
-'''
