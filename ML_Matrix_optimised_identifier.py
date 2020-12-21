@@ -26,7 +26,6 @@ def mCM(arrelem):
  
                 if cost < c[i][j]:
                     c[i][j] = cost
- 
                 k = k + 1
  
     # return min cost to multiply Matrix[j+1]..Matrix[j]
